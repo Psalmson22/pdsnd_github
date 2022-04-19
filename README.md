@@ -1,17 +1,22 @@
->**Note**: Please **fork** the current Udacity repository so that you will have a **remote** repository in **your** Github account. Clone the remote repository to your local machine. Later, as a part of the project "Post your Work on Github", you will push your proposed changes to the remote repository in your Github account.
-
 ### Date created
-Include the date you created this project and README file.
+Project was completed on April 9, 2022.
+README file was created on April 19, 2022.
 
 ### Project Title
-Replace the Project Title
+Explore US Bikeshare Data
 
 ### Description
-Describe what your project is about and what it does
+This project helps to provide bike riders with data about US Bikeshare. Users can filter the data across the 3 cities: Chicago, Washington and New York City where the bike hailing service is available. 
 
 ### Files used
-Include the files used
+chicago.csv
+new_york_city.csv
+washington.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+https://youtu.be/Zgjz7rcVZ0I
+https://www.upgrad.com/blog/indentation-error-in-python/
+https://github.com/beingjainparas/Udacity-Explore_US_Bikeshare_Data/blob/master/bikeshare_2.py
+https://github.com/ozlerhakan/bikeshare/blob/master/bikeshare.py
+https://stackoverflow.com/questions/23294658/asking-the-user-for-input-until-they-give-a-valid-response
+https://gitlab.com/tomjose1792/BikeShare-Project-Python/-/blob/master/bikeshare.py
