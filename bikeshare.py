@@ -1,10 +1,3 @@
-# Resources used in solving this project
-#1 https://youtu.be/Zgjz7rcVZ0I
-#2 https://www.upgrad.com/blog/indentation-error-in-python/
-#3 https://github.com/beingjainparas/Udacity-Explore_US_Bikeshare_Data/blob/master/bikeshare_2.py
-#4 https://github.com/ozlerhakan/bikeshare/blob/master/bikeshare.py
-#5 https://stackoverflow.com/questions/23294658/asking-the-user-for-input-until-they-give-a-valid-response
-#6 https://gitlab.com/tomjose1792/BikeShare-Project-Python/-/blob/master/bikeshare.py
 import time
 import pandas as pd
 import numpy as np
