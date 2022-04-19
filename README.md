@@ -6,7 +6,8 @@ README file was created on April 19, 2022.
 Explore US Bikeshare Data
 
 ### Description
-This project helps to provide bike riders with data about US Bikeshare. Users can filter the data across the 3 cities: Chicago, Washington and New York City where the bike hailing service is available. 
+The project was done using python, panda and numpy.
+This project helps to provide bike riders with data about US Bikeshare. Users can filter the data across Chicago, Washington and New York City by stations, month, days of the week, age range etc. The filtered data can also be sorted by earliest date and so on.
 
 ### Files used
 chicago.csv
