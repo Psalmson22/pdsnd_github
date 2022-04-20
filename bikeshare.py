@@ -9,6 +9,7 @@ import time
 import pandas as pd
 import numpy as np
 
+#SECTION 1: INPUT HANDLING SECTION TO SELECT CITY, MONTH AND DAY
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
@@ -58,7 +59,7 @@ def get_filters():
     print('-'*40)
     return city, month, day
 
-
+#SECTION 2: THIS SECTION FILTERS THE RESULT OF THE SEARCH IN SECTION ONE
 def load_data(city, month, day):
     """
     Loads data for the specified city and filters by month and day if applicable.
@@ -96,6 +97,7 @@ def load_data(city, month, day):
 
     return df
 
+#SECTION 3: DISPLAYS USER'S STATSTICS OF THE FILTERED DAY
 
 def time_stats(df):
     """Displays statistics on the most frequent times of travel.
@@ -201,7 +203,7 @@ def user_stats(df, city):
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
-
+#SECTION 4: THIS SECTION ASKS FOR THE NUMBER OF ROWS TO DISPLAY
 def display_raw_data(df):
     """Displays raw data on user request.
 
@@ -233,6 +235,8 @@ def main():
                 break
             display_raw_data(df)
             break
+
+#SECTION 5: THIS ASK FOR THE SCRIPT TO RESTART OR TO END
 
         restart = input('\nWould you like to restart? Enter yes or no.\n')
         if restart.lower() != 'yes':
